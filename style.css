@@ -1,11 +1,76 @@
+* {
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	padding: 0;
+	vertical-align: baseline;
+	text-align: left
+}
+
+html, body {
+	font-size: 16px;
+
+}
+
 .clear {
 	clear: both;
+	width: 750px;
+	border: 1px solid grey;
+	
+}
+
+.clear1 {
+	clear: both;
+	width: 800px;
+	border: 2px solid orange;
+}
+
+p {
+	font-size: 1em;
+	line-height: 1.4em;
+	margin-bottom: 20px;
+	font-family: 'Lato', sans-serif;
+}
+
+#cv {
+	width: 90%;
+	max-width: 750px;
+	margin: 30px;
+}
+
+.mainDetails {
+
+
+}
+
+#name h1 {
+	font-size: 3em;
+	font-weight: 800;
+	margin-top: 5px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#name h2 {
+	font-size: 3em;
+	margin-left: 3px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#mainArea {
+	padding-left: 40px;
 }
 
 #headshot {
-	width: 12.5%;
+	width: 15%;
 	float: left;
 	margin-right: 30px;
+
+}
+
+#headshot img {
+	width: 100%;
+	height: auto;
+	border-radius: 40px;
 }
 
 #name {
@@ -14,14 +79,78 @@
 
 #contactDetails {
 	float: right;
+
+}
+
+#contactDetails ul {
+	list-style-type: none;
+	font-size: 1em;
+	margin-top: 2px;
+	
+}
+
+#contactDetails ul li {
+	margin-bottom: 3px;
+		
+}
+
+#contactDetails ul li a, a[href^=tel] {
+	text-decoration: none;
+}
+
+#contactDetails ul li a:hover {
+}
+
+section {
+	padding: 20px 0 0;
+	padding-left: 30px;
+}
+
+section:first-child {
+	border-top: 0;
+}
+
+section:last-child {
+	padding: 20px 0 10px;
+	padding-left: 30px;
 }
 
 .sectionTitle {
 	float: left;
-	width: 25%;
+	width: 30%;
 }
 
 .sectionContent {
 	float: right;
-	width: 72.5%;
+	width: 70%;
 }
+
+.sectionTitle h1 {
+	font-style: italic;
+	font-size: 1.5em;
+	color:goldenrod;
+}
+
+.sectionContent h2 {
+	font-size: 1.5em;
+	margin-bottom: 2px;
+}
+
+.subDetails {
+	font-size: 0.7em;
+	font-style: italic;
+	margin-bottom: 3px;
+}
+
+.keySkills {
+	list-style-type: none;
+	column-count: 3;
+	margin-bottom: 20px;
+	font-size: 1em;
+}
+
+.keySkills ul li {
+	margin-bottom: 4px;
+	font-family: 'Montserrat', sans-serif;
+}
+
